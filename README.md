@@ -68,9 +68,3 @@ would silently stretch the sampling interval, which corrupts every timestamp the
 analysis depends on.
 
 Everything else, including the dead ends, is in `FINDINGS.md`.
-
-## Not done yet
-
-`recorder.cpp` compiles but has never run against the live API. The request
-signing is written from the docs and not yet confirmed against a real 200
-response — diff it against `recorder.py` before trusting it.
