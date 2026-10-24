@@ -67,4 +67,4 @@ oldest snapshot is discarded and counted. Blocking the capture loop instead
 would silently stretch the sampling interval, which corrupts every timestamp the
 analysis depends on.
 
-Everything else, including the dead ends, is in `FINDINGS.md`.
+
